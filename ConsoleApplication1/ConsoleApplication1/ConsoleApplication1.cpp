@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Node.h"
 #include "List.h"
+#include "Stack.h"
 using namespace std;
 int main()
 {
@@ -29,6 +30,18 @@ int main()
 	l2.removeAt(1);
 	l2.removeAt(0);
 	l2.removeAt(0);
+
+	Stack s;
+	s.push(5);
+	s.push(4);
+	
+	
+	s.pop();
+
+	cout << s.get_size()<<' '<<s.pop();
+
+	
+
 	
 	return 0;
 
