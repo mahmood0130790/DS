@@ -3,6 +3,7 @@
 #include "Node.h"
 #include "List.h"
 #include "Stack.h"
+#include "Queue.h"
 using namespace std;
 int main()
 {
@@ -37,12 +38,18 @@ int main()
 	
 	
 	s.pop();
-
-	cout << s.get_size()<<' '<<s.pop();
-
-	
+	cout << s.get_size()<<endl;
 
 	
+
+
+	Queue q;
+	q.push(5);
+	q.push(4);
+
+	q.pop();
+
+	cout << q.get_size() <<  ' '  << endl;
 	return 0;
 
 

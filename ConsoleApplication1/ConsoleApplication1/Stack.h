@@ -7,7 +7,8 @@ class Stack
 
 public:
 	void push(int value);
-	int pop();
+	void pop();
+	
 	int get_size();
 	Stack();
 	~Stack();
